@@ -1,23 +1,19 @@
-
-
+import Navbar from "./Navbar";
 
 function App() {
+
+const apellido = "Rearte Pereyra"
+
+const sumar = ()=> {
+  console.log( 'Hola Zaira Belén ${apellido}')
+}
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        
-        <p>
-         Hola como estan?
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          documentacion
-        </a>
-      </header>
+       <h1>{apellido}</h1>
+      <button onClick={sumar}>Sumar</button>
+      <Navbar />
     </div>
   );
 }
