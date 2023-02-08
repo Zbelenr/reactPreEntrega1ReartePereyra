@@ -4,6 +4,7 @@ const CartWidget = () => {
   return (
     <div>
         <FaShoppingCart/>
+        2
     </div>
   )
 }

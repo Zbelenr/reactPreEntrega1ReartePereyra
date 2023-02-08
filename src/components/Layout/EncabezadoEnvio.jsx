@@ -1,5 +1,5 @@
 import React from 'react'
-import IconoEnvio from '../IconoEnvio/IconoEnvio'
+import IconoEnvio from "../IconoEnvio/IconoEnvio"
 
 const EncabezadoEnvio = ({children}) => {
     
