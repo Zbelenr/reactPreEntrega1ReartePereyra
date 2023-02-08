@@ -1,19 +1,11 @@
-import Navbar from "./Navbar";
 
+
+import Header from "./components/Header/Header";
 function App() {
-
-const apellido = "Rearte Pereyra"
-
-const sumar = ()=> {
-  console.log( 'Hola Zaira Belén ${apellido}')
-}
-
 
   return (
     <div className="App">
-       <h1>{apellido}</h1>
-      <button onClick={sumar}>Sumar</button>
-      <Navbar />
+      <Header />
     </div>
   );
 }
