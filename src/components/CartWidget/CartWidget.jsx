@@ -1,9 +1,9 @@
-import {BsAlarmFill} from 'react-icons/bs'
+import {FaShoppingCart} from 'react-icons/fa'
 
 const CartWidget = () => {
   return (
     <div>
-        <BsAlarmFill/>
+        <FaShoppingCart/>
     </div>
   )
 }
